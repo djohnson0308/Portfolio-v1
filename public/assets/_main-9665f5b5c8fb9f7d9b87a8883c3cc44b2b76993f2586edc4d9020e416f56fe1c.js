@@ -1,0 +1,1 @@
+!function(i){function e(){var e=skrollr.init({forceHeight:!1});winH=$window.height(),winH<=550&&(winH=550),$slide.height(winH),e.refresh(i(".homeSlide"))}$window=i(window),$slide=i(".homeSlide"),$body=i("body"),$body.imagesLoaded(function(){setTimeout(function(){e(),$body.removeClass("loading").addClass("loaded")},3e3)})}(jQuery);
