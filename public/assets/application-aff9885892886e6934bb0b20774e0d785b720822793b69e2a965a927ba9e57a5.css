@@ -1,0 +1,582 @@
+/* line 1, /Users/devonjohnson/Projects_2017/portfolio-v1/app/assets/stylesheets/blur_effect.scss */
+.hsContent::before {
+  background: url("rock-island.jpeg") 0/cover fixed;
+}
+
+/* line 5, /Users/devonjohnson/Projects_2017/portfolio-v1/app/assets/stylesheets/blur_effect.scss */
+.hsContent {
+  margin: 100px auto;
+  line-height: 1.5;
+  overflow: hidden;
+}
+
+/* line 15, /Users/devonjohnson/Projects_2017/portfolio-v1/app/assets/stylesheets/blur_effect.scss */
+.hsContent::before {
+  content: '';
+  margin: -100px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  filter: blur(15px);
+  z-index: -1;
+}
+/* line 3, /Users/devonjohnson/Projects_2017/portfolio-v1/app/assets/stylesheets/grayscale.scss */
+.light {
+  font-weight: 400;
+}
+
+/* line 6, /Users/devonjohnson/Projects_2017/portfolio-v1/app/assets/stylesheets/grayscale.scss */
+.navbar-custom {
+  margin-bottom: 0;
+  background-color: transparent;
+}
+
+/* line 10, /Users/devonjohnson/Projects_2017/portfolio-v1/app/assets/stylesheets/grayscale.scss */
+.navbar-custom .navbar-toggle {
+  color: white;
+  background-color: rgba(255, 255, 255, 0.2);
+  font-size: 12px;
+}
+
+/* line 15, /Users/devonjohnson/Projects_2017/portfolio-v1/app/assets/stylesheets/grayscale.scss */
+.navbar-custom .navbar-toggle:focus,
+.navbar-custom .navbar-toggle:active {
+  outline: none;
+}
+
+/* line 19, /Users/devonjohnson/Projects_2017/portfolio-v1/app/assets/stylesheets/grayscale.scss */
+.navbar-custom .navbar-brand {
+  font-weight: 700;
+}
+
+/* line 22, /Users/devonjohnson/Projects_2017/portfolio-v1/app/assets/stylesheets/grayscale.scss */
+.navbar-custom .navbar-brand:focus {
+  outline: none;
+}
+
+/* line 25, /Users/devonjohnson/Projects_2017/portfolio-v1/app/assets/stylesheets/grayscale.scss */
+.navbar-custom a {
+  color: white;
+}
+
+/* line 28, /Users/devonjohnson/Projects_2017/portfolio-v1/app/assets/stylesheets/grayscale.scss */
+.navbar-custom .nav li a {
+  -webkit-transition: background 0.3s ease-in-out;
+  -moz-transition: background 0.3s ease-in-out;
+  transition: background 0.3s ease-in-out;
+}
+
+/* line 33, /Users/devonjohnson/Projects_2017/portfolio-v1/app/assets/stylesheets/grayscale.scss */
+.navbar-custom .nav li a:hover {
+  color: rgba(255, 255, 255, 0.8);
+  outline: none;
+  background-color: transparent;
+}
+
+/* line 38, /Users/devonjohnson/Projects_2017/portfolio-v1/app/assets/stylesheets/grayscale.scss */
+.navbar-custom .nav li a:focus,
+.navbar-custom .nav li a:active {
+  outline: none;
+  background-color: transparent;
+}
+
+/* line 43, /Users/devonjohnson/Projects_2017/portfolio-v1/app/assets/stylesheets/grayscale.scss */
+.navbar-custom .nav li.active {
+  outline: none;
+}
+
+/* line 46, /Users/devonjohnson/Projects_2017/portfolio-v1/app/assets/stylesheets/grayscale.scss */
+.navbar-custom .nav li.active a {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+/* line 49, /Users/devonjohnson/Projects_2017/portfolio-v1/app/assets/stylesheets/grayscale.scss */
+.navbar-custom .nav li.active a:hover {
+  color: white;
+}
+
+@media (min-width: 768px) {
+  /* line 53, /Users/devonjohnson/Projects_2017/portfolio-v1/app/assets/stylesheets/grayscale.scss */
+  .navbar-custom {
+    padding-top: 10px;
+    border-bottom: none !important;
+    letter-spacing: 1px;
+    background: transparent;
+    -webkit-transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
+    -moz-transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
+    transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
+  }
+
+  /* line 62, /Users/devonjohnson/Projects_2017/portfolio-v1/app/assets/stylesheets/grayscale.scss */
+  .navbar-custom.top-nav-collapse {
+    padding: 10px;
+    border-bottom: none !important;
+    font-size: 20px;
+    -webkit-box-shadow: 0px 10px 10px 0px rgba(16, 25, 37, 0.4);
+    -moz-box-shadow: 0px 10px 10px 0px rgba(16, 25, 37, 0.4);
+    box-shadow: 0px 10px 10px 0px rgba(16, 25, 37, 0.4);
+  }
+
+  /* line 70, /Users/devonjohnson/Projects_2017/portfolio-v1/app/assets/stylesheets/grayscale.scss */
+  .top-nav-collapse img {
+    height: 2em !important;
+  }
+
+  /* line 73, /Users/devonjohnson/Projects_2017/portfolio-v1/app/assets/stylesheets/grayscale.scss */
+  .top-nav-collapse li a {
+    padding-top: 1em;
+    font-size: 16px !important;
+  }
+}
+/* line 78, /Users/devonjohnson/Projects_2017/portfolio-v1/app/assets/stylesheets/grayscale.scss */
+.intro {
+  display: table;
+  width: 100%;
+  height: 100%;
+  padding: 100px 0;
+  text-align: center;
+  color: white;
+  background: url(/assets/underwater-f415ccefc1650b05d7cb0687dff58c838001b325424385fe665f8569787847c6.jpg) no-repeat bottom center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+/* line 94, /Users/devonjohnson/Projects_2017/portfolio-v1/app/assets/stylesheets/grayscale.scss */
+.intro .intro-body {
+  display: table-cell;
+  vertical-align: middle;
+  height: 50em;
+}
+
+/* line 99, /Users/devonjohnson/Projects_2017/portfolio-v1/app/assets/stylesheets/grayscale.scss */
+.intro .intro-body .brand-heading {
+  font-size: 20px;
+}
+
+/* line 102, /Users/devonjohnson/Projects_2017/portfolio-v1/app/assets/stylesheets/grayscale.scss */
+.intro .intro-body .intro-text {
+  font-size: 18px;
+}
+
+@media (min-width: 768px) {
+  /* line 106, /Users/devonjohnson/Projects_2017/portfolio-v1/app/assets/stylesheets/grayscale.scss */
+  .intro {
+    height: 100%;
+    padding: 0;
+  }
+
+  /* line 110, /Users/devonjohnson/Projects_2017/portfolio-v1/app/assets/stylesheets/grayscale.scss */
+  .intro .intro-body .brand-heading {
+    font-size: 50px;
+  }
+
+  /* line 113, /Users/devonjohnson/Projects_2017/portfolio-v1/app/assets/stylesheets/grayscale.scss */
+  .intro .intro-body .intro-text {
+    font-size: 26px;
+  }
+}
+/* line 5, /Users/devonjohnson/Projects_2017/portfolio-v1/app/assets/stylesheets/home.scss */
+body {
+  font-family: "myriad-set-pro_ultralight";
+}
+
+/* line 10, /Users/devonjohnson/Projects_2017/portfolio-v1/app/assets/stylesheets/home.scss */
+p {
+  font-size: 1.5em;
+  letter-spacing: 0.75px;
+  font-family: 'myriad-set-pro_thin';
+  font-weight: 100;
+}
+
+/* line 16, /Users/devonjohnson/Projects_2017/portfolio-v1/app/assets/stylesheets/home.scss */
+h2 {
+  font-size: 3.8em;
+}
+
+/* line 19, /Users/devonjohnson/Projects_2017/portfolio-v1/app/assets/stylesheets/home.scss */
+h3 {
+  font-size: 2.25em;
+}
+
+/* line 22, /Users/devonjohnson/Projects_2017/portfolio-v1/app/assets/stylesheets/home.scss */
+h5 {
+  font-size: 15px;
+  color: #cccccc;
+  margin-top: 10em;
+}
+
+/* line 29, /Users/devonjohnson/Projects_2017/portfolio-v1/app/assets/stylesheets/home.scss */
+.nav {
+  font-size: 15px;
+}
+
+/* line 34, /Users/devonjohnson/Projects_2017/portfolio-v1/app/assets/stylesheets/home.scss */
+.header {
+  background: url(/assets/rock-island-0f6ef5fd1fb518d92ef9a9b6737c931dd4a0d790c5a32ca4ffad5516f4c79d6e.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+/* line 44, /Users/devonjohnson/Projects_2017/portfolio-v1/app/assets/stylesheets/home.scss */
+.logo {
+  height: 5em;
+  position: relative;
+  left: -15em;
+}
+
+/* line 49, /Users/devonjohnson/Projects_2017/portfolio-v1/app/assets/stylesheets/home.scss */
+.hsContent {
+  max-width: 700px;
+  position: absolute;
+  left: 44%;
+}
+
+/* line 54, /Users/devonjohnson/Projects_2017/portfolio-v1/app/assets/stylesheets/home.scss */
+.hsContent h2 {
+  font-size: 1.65em;
+}
+
+/* line 57, /Users/devonjohnson/Projects_2017/portfolio-v1/app/assets/stylesheets/home.scss */
+.icon {
+  font-size: 25px;
+}
+
+/* line 60, /Users/devonjohnson/Projects_2017/portfolio-v1/app/assets/stylesheets/home.scss */
+button {
+  background: transparent;
+  border: none;
+}
+
+/* line 64, /Users/devonjohnson/Projects_2017/portfolio-v1/app/assets/stylesheets/home.scss */
+.controls i {
+  padding-left: 4.95em;
+  margin-right: .2em;
+}
+
+/* line 68, /Users/devonjohnson/Projects_2017/portfolio-v1/app/assets/stylesheets/home.scss */
+.icon.ion-ios-volume-high {
+  font-size: 45px;
+  color: rgba(255, 255, 255, 0.4);
+}
+
+/* line 72, /Users/devonjohnson/Projects_2017/portfolio-v1/app/assets/stylesheets/home.scss */
+.icon.ion-ios-volume-low {
+  font-size: 45px;
+  color: rgba(255, 255, 255, 0.4);
+  margin-right: .57em;
+}
+
+/* line 77, /Users/devonjohnson/Projects_2017/portfolio-v1/app/assets/stylesheets/home.scss */
+#slide-1 .hsContent {
+  bottom: 0;
+  top: auto;
+  background: rgba(255, 255, 255, 0.3);
+  color: rgba(255, 255, 255, 0.6);
+  border-radius: 5px;
+  padding: 12px;
+}
+
+/* line 85, /Users/devonjohnson/Projects_2017/portfolio-v1/app/assets/stylesheets/home.scss */
+#blur {
+  -webkit-backdrop-filter: blur(1.5px);
+}
+
+/* line 89, /Users/devonjohnson/Projects_2017/portfolio-v1/app/assets/stylesheets/home.scss */
+#slide-2 {
+  background-color: #15212f;
+  padding-top: 15em;
+  padding-bottom: 10em;
+  text-align: center;
+}
+
+/* line 95, /Users/devonjohnson/Projects_2017/portfolio-v1/app/assets/stylesheets/home.scss */
+#slide-2 .col-md-4 {
+  padding-bottom: 5em;
+}
+
+/* line 98, /Users/devonjohnson/Projects_2017/portfolio-v1/app/assets/stylesheets/home.scss */
+.about {
+  color: #fff;
+}
+
+/* line 101, /Users/devonjohnson/Projects_2017/portfolio-v1/app/assets/stylesheets/home.scss */
+.responsive-design-icon {
+  height: 16em;
+}
+
+/* line 104, /Users/devonjohnson/Projects_2017/portfolio-v1/app/assets/stylesheets/home.scss */
+#slide-3 {
+  background-color: #15212f;
+  color: #fff;
+  padding-top: 10em;
+  padding-bottom: 15em;
+}
+
+/* line 110, /Users/devonjohnson/Projects_2017/portfolio-v1/app/assets/stylesheets/home.scss */
+#slide-3 .top-text {
+  padding-top: 15em;
+}
+
+/* line 113, /Users/devonjohnson/Projects_2017/portfolio-v1/app/assets/stylesheets/home.scss */
+#slide-3 p {
+  margin-top: 2em;
+}
+
+/* line 116, /Users/devonjohnson/Projects_2017/portfolio-v1/app/assets/stylesheets/home.scss */
+#slide-3 .bottom-text {
+  padding-top: 20em;
+}
+
+/* line 119, /Users/devonjohnson/Projects_2017/portfolio-v1/app/assets/stylesheets/home.scss */
+#slide-4 {
+  background-color: #15212f;
+  color: #fff;
+  padding-top: 10em;
+  padding-bottom: 20em;
+}
+
+/* line 125, /Users/devonjohnson/Projects_2017/portfolio-v1/app/assets/stylesheets/home.scss */
+#slide-4 .contact {
+  padding-top: 5em;
+}
+
+/* line 128, /Users/devonjohnson/Projects_2017/portfolio-v1/app/assets/stylesheets/home.scss */
+#slide-4 p {
+  padding-top: 1em;
+}
+
+/* line 131, /Users/devonjohnson/Projects_2017/portfolio-v1/app/assets/stylesheets/home.scss */
+#slide-4 .email {
+  padding-top: 3em;
+}
+
+/* line 134, /Users/devonjohnson/Projects_2017/portfolio-v1/app/assets/stylesheets/home.scss */
+#slide-4 .btn {
+  border: 1px solid;
+  font-size: 1.5em;
+  letter-spacing: .75px;
+}
+
+/* line 139, /Users/devonjohnson/Projects_2017/portfolio-v1/app/assets/stylesheets/home.scss */
+#slide-4 .btn:hover {
+  color: #659bca;
+}
+
+/* line 142, /Users/devonjohnson/Projects_2017/portfolio-v1/app/assets/stylesheets/home.scss */
+footer {
+  padding-top: 12em;
+  padding-bottom: 1em;
+  background-color: #101925;
+}
+
+/* line 147, /Users/devonjohnson/Projects_2017/portfolio-v1/app/assets/stylesheets/home.scss */
+footer .footer-logo {
+  padding-bottom: 0.5em;
+  bottom: -10em;
+}
+
+/* line 151, /Users/devonjohnson/Projects_2017/portfolio-v1/app/assets/stylesheets/home.scss */
+footer h3 {
+  color: honeydew;
+  font-size: 1.75em;
+}
+
+/* line 155, /Users/devonjohnson/Projects_2017/portfolio-v1/app/assets/stylesheets/home.scss */
+footer img {
+  height: 3em;
+}
+
+/* line 158, /Users/devonjohnson/Projects_2017/portfolio-v1/app/assets/stylesheets/home.scss */
+footer .col-md-6 {
+  padding-top: 4em;
+}
+
+.line-1{
+    position: relative;
+    top: 50%;
+    width: 100%;
+    border-right: 2px solid rgba(255,255,255,0);
+    text-align: left;
+    white-space: nowrap;
+    overflow: hidden;
+    /*transform: translateY(-50%);*/
+}
+
+/* Animation */
+.anim-typewriter {
+  animation: typewriter 3s steps(30) 3s 1 normal both,
+             blinkTextCursor 1500ms steps(30) 6 normal;
+}
+@keyframes typewriter{
+  from{width: 0;}
+  to{width: 97%;}
+}
+@keyframes blinkTextCursor{
+  from{border-right-color: rgba(255,255,255,.75);}
+  to{border-right-color: transparent;}
+}
+
+
+.anim-typewriter2  {
+  animation: typewriter2 2.5s steps(20) 9.5s 1 normal both,
+             blinkTextCursor2 1500ms steps(20) 9s infinite normal;
+}
+
+@keyframes typewriter2{
+  from{width: 0;}
+  to{width: 32%;}
+}
+@keyframes blinkTextCursor2{
+  from{border-right-color: rgba(255,255,255,.75);}
+  to{border-right-color: transparent;}
+}
+body {
+}
+.navbar-header img {
+  height: 2.5em;
+  margin-top: .25em;
+}
+.navbar-brand {
+  float: left;
+}
+.top-nav-collapse {
+  background-color: #101925;
+}
+#navbar {
+  width: 75%;
+  text-align: right;
+  min-width: 500px;
+  margin: 1% auto 0 auto;
+  padding: 0;
+  z-index: 10000000001;
+  position: fixed;
+  top: 0;
+}
+
+#navbar:after {
+  content: '';
+  display: inline-block;
+  width: 100%;
+}
+
+#navbar li  {
+  display: inline-block;
+}
+#navbar li a {
+  color: #fff;
+  font-size: 15px;
+}
+#about {
+  background-color: #15212f;
+  color: #fff;
+  padding-top: 7em;
+  padding-bottom: 4em;
+}
+#about .col-lg-12 {
+  padding-top: 5em;
+  padding-bottom: 10em;
+}
+#about h2 {
+  font-size: 25px;
+}
+#about h3 {
+  font-size: 20px;
+}
+#portfolio {
+  color: #fff;
+  height: 73em;
+}
+#portfolio img {
+  height: 25em;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   text-align: center;
+}
+#portfolio h3 {
+  font-size: 20px;
+  line-height: 40px;
+}
+#portfolio h2 {
+  font-size: 25px;
+}
+#portfolio .display {
+padding-top: 10em;
+}
+.portfolio-1 {
+  background-color: #4f6a7e;
+}
+.portfolio-1 .col-lg-12 {
+  padding-top: 5em;
+  padding-bottom: 0em;
+}
+.portfolio-1 .info {
+  text-align: left;
+  line-height: 5em;;
+}
+.portfolio-2 {
+  background-color: #a3a3a3;
+}
+.portfolio-2 .col-lg-12 {
+  padding-top: 5em;
+  padding-bottom: 0em
+}
+.portfolio-2 .info {
+  text-align: left;
+}
+.portfolio-3 {
+  background-color: #758396;
+}
+.portfolio-3 .col-lg-12 {
+  padding-top: 5em;
+  padding-bottom: 0em
+}
+.portfolio-3 .info {
+  text-align: left;
+}
+.portfolio-4 {
+  background-color: #8ca6a6;
+}
+.portfolio-4 .col-lg-12 {
+  padding-top: 5em;
+  padding-bottom: 0em
+}
+.portfolio-4 .info {
+  text-align: left;
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+
+
+ */
+@font-face {
+  font-family: 'myriad-set-pro_ultralight';
+  src: url(/assets/myriad-set-pro_ultralight);
+}
+@font-face {
+  font-family: "myriad-set-pro_text";
+  src: url(/assets/myriad-set-pro_text);
+}
+@font-face {
+  font-family: "myriad-set-pro_thin";
+  src: url(/assets/myriad-set-pro_thin);
+}
