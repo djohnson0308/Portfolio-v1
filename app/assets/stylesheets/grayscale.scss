@@ -82,12 +82,11 @@
   padding: 100px 0;
   text-align: center;
   color: white;
-  background: url(underwater.jpeg) no-repeat bottom center scroll;
+  background: image-url('underwater.jpeg') no-repeat bottom center scroll;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
-  -o-background-size: cover;
-  /*background-position: center center;*/
+  // -o-background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
