@@ -1,10 +1,14 @@
 .hsContent::before {
-  background: image-url('rock-island.jpeg') 0 / cover fixed;
+  background: url('rock-island.jpeg') 0 / cover fixed;
 }
 
 .hsContent {
   margin: 100px auto;
+  // position: relative;
+  // background: hsla(0,0%,100%,.3);
   line-height: 1.5;
+  // width: 60%;
+  // box-shadow: 0px 0px .5px black;
   overflow: hidden;
 }
 
