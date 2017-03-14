@@ -1,0 +1,40 @@
+
+.line-1{
+    position: relative;
+    top: 50%;
+    width: 100%;
+    border-right: 2px solid rgba(255,255,255,0);
+    text-align: left;
+    white-space: nowrap;
+    overflow: hidden;
+    /*transform: translateY(-50%);*/
+}
+
+/* Animation */
+.anim-typewriter {
+  animation: typewriter 3s steps(30) 3s 1 normal both,
+             blinkTextCursor 1500ms steps(30) 6 normal;
+}
+@keyframes typewriter{
+  from{width: 0;}
+  to{width: 97%;}
+}
+@keyframes blinkTextCursor{
+  from{border-right-color: rgba(255,255,255,.75);}
+  to{border-right-color: transparent;}
+}
+
+
+.anim-typewriter2  {
+  animation: typewriter2 2.5s steps(20) 9.5s 1 normal both,
+             blinkTextCursor2 1500ms steps(20) 9s infinite normal;
+}
+
+@keyframes typewriter2{
+  from{width: 0;}
+  to{width: 32%;}
+}
+@keyframes blinkTextCursor2{
+  from{border-right-color: rgba(255,255,255,.75);}
+  to{border-right-color: transparent;}
+}
