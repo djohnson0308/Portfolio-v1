@@ -13,6 +13,3 @@ module GsapExamples
     # -- all .rb files in that directory are automatically loaded.
   end
 end
-
-# add app/assets/fonts to the asset path
-config.assets.paths << Rails.root.join("app", "assets", "fonts")
