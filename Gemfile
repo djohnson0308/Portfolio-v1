@@ -12,8 +12,6 @@ gem 'rails', '~> 5.0.1'
 gem 'sqlite3', group: :development
 gem 'pg', '0.18.1', group: :production
 
-gem 'sprockets_better_errors'
-
 # Use Puma as the app server
 gem 'puma', '~> 3.0'
 # Use SCSS for stylesheets
