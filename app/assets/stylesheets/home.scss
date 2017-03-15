@@ -30,7 +30,6 @@ audio {
   font-size: 15px;
 }
 .navbar {
-  // padding-top: 1.5em;
 }
 .header {
     background: image-url('rock-island.jpeg');
@@ -50,7 +49,6 @@ audio {
 .hsContent {
 	max-width: 700px;
 	position: absolute;
-	// right: 38.5%;
   left: 44%;
 }
 .hsContent h2 {
@@ -82,7 +80,10 @@ button {
   background: rgba(255,255,255,0.3);
   color: rgba(255,255,255,.60);
   border-radius: 5px;
-  padding: 18px;
+  padding: 12px;
+}
+#slide-1 .greeting {
+  width: 19em;
 }
 #blur {
  // filter:blur(5px);
