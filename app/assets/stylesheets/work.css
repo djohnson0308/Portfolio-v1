@@ -41,8 +41,10 @@ body {
   padding-bottom: 4em;
 }
 #about .col-lg-12 {
-  padding-top: 5em;
-  padding-bottom: 10em;
+}
+#about .container {
+  padding-top: 7em;
+  padding-bottom: 12em;
 }
 #about h2 {
   font-size: 25px;
@@ -55,7 +57,7 @@ body {
   height: 73em;
 }
 #portfolio img {
-  height: 25em;
+  /*height: 25em;*/
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
    text-align: center;
 }

@@ -1,8 +1,6 @@
 
 $(document).ready(function(){
 
-// var s = skrollr.init();
-
 var $img = $('.header');
 // set initial CSS opacity to 0
 // GSAP handles the cross browser vendor prefixes

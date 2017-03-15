@@ -47,8 +47,10 @@
    <div class=container>
      <div class="row">
        <div class="col-lg-12 text-center">
-           <h2>What I've been up to.</h2>
-           <h3>Here's a selection of some of my recent work.</h3>
+         <h2>What I've been up to.</h2>
+       </div>
+       <div class="col-lg-12 text-center">
+         <h3>Here's a selection of some of my recent work.</h3>
        </div>
      </div>
    </div>
@@ -138,11 +140,11 @@
 <footer>
   <div class="container">
     <div class="footer-logo col-md-4 col-md-offset-4 text-center">
-      <img href="/" src="/assets/portfolio-logo.png"/>
+      <img href="https://www.devonjohnson.io/home/work" src="<%= asset_path 'portfolio-logo.png' %>"/>
     </div>
     <div class="row">
       <div class="col-md-6 col-md-offset-3">
-        <div class="col-md-3 col-md-offset-1"><a href="https://www.devonjohnson.io"><h3 class="nav-title">Home</h3></a></div>
+        <div class="col-md-3 col-md-offset-1"><a href="https://www.devonjohnson.io/home/work"><h3 class="nav-title">Work</h3></a></div>
         <div class="col-md-3 col-md-offset-1"><a href="https://github.com/djohnson0308"><h3 class="nav-title">Github</h3></a></div>
         <div class="col-md-3 col-md-offset-1"><a href="https://www.linkedin.com/in/devon-l-johnson-80a76884/"><h3 class="nav-title">LinkedIn</h3></a></div>
       </div>
@@ -152,9 +154,6 @@
         <h5>© 2017 Devon Johnson. All rights reserved.</h5>
       </div>
     </div>
-    <audio id="player" loop="true">
-      <source src="<%= audio_path '03 Destiny 1.mp3'%>"></source>
-    </audio>
   </div>
 </footer>
 
@@ -166,6 +165,7 @@ function collapseNavbar() {
         $(".navbar-fixed-top").removeClass("top-nav-collapse");
     }
 }
+
 
 $(window).scroll(collapseNavbar);
 $(document).ready(collapseNavbar);
