@@ -19,7 +19,8 @@ $(document).ready(function(){
     $('.homeSlide').height($(window).height());
 
     AOS.init({
-      duration: 1200
+      duration: 1200,
+       disable: 'mobile'
     });
     // audio player
     var audio = document.getElementsByTagName("audio")[0];
