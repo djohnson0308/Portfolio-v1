@@ -4,7 +4,7 @@
            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
                <a href="www.devonjohnson.io"><img data-aos="fade-in" src="/assets/portfolio-logo.png"/></a>
            </button>
-           <a href="/home/work"  href="/home/work">
+           <a href="javascript:window.location.reload(true)">
                <img data-aos="fade-right" class="navbar-brand page-scroll" src="/assets/portfolio-logo.png"/>
            </a>
        </div>
@@ -15,7 +15,7 @@
                    <a href="#page-top"></a>
                </li>
                <li>
-                   <a class="page-scroll" href="/">HOME</a>
+                   <a class="page-scroll" onclick="javascript:window.location.reload(true)" href="/">HOME</a>
                </li>
                <li>
                    <a class="page-scroll" href="https://github.com/djohnson0308">GITHUB</a>
@@ -148,11 +148,11 @@
 <footer>
   <div class="container">
     <div class="footer-logo-2 col-md-4 col-md-offset-4 text-center">
-      <img href="/home/work" src="<%= asset_path 'portfolio-logo.png' %>"/>
+      <a onclick="javascript:window.location.reload(true)" href="/"><img src="<%= asset_path 'portfolio-logo.png' %>"/></a>
     </div>
     <div class="row">
       <div class="col-md-6 col-md-offset-3">
-        <div class="col-md-3 col-md-offset-1"><a href="/"><h3 class="nav-title">Home</h3></a></div>
+        <div class="col-md-3 col-md-offset-1"><a onclick="javascript:window.location.reload(true)" href="/"><h3 class="nav-title">Home</h3></a></div>
         <div class="col-md-3 col-md-offset-1"><a href="https://github.com/djohnson0308"><h3 class="nav-title">Github</h3></a></div>
         <div class="col-md-3 col-md-offset-1"><a href="https://www.linkedin.com/in/devon-l-johnson-80a76884/"><h3 class="nav-title">LinkedIn</h3></a></div>
       </div>

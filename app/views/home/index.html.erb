@@ -1,9 +1,9 @@
 <header>
 <section id="slide-1" class="homeSlide">
   <div class="header">
-    <div class="gradient"></div>
-      <div class="demo"></div>
-        <a href="/"><img class="logo" id="logo" src="<%= asset_path 'portfolio-logo.png' %>"/></a>
+    <div class="gradient">
+      <div class="demo">
+        <a href="javascript:window.location.reload(true)"><img class="logo" id="logo" src="<%= asset_path 'portfolio-logo.png' %>"/></a>
       </div>
       <div class="hsContent" id="blur" data-center="bottom: 5px; opacity: 1"
           data-top="bottom: 400px; opacity: 0"
@@ -88,11 +88,11 @@
 <footer>
   <div class="container">
     <div class="footer-logo col-md-4 col-md-offset-4 text-center">
-      <img href="/" src="<%= asset_path 'portfolio-logo.png' %>"/>
+      <a href="javascript:window.location.reload(true)"><img src="<%= asset_path 'portfolio-logo.png' %>"/></a>
     </div>
     <div class="row">
       <div class="col-md-6 col-md-offset-3">
-        <div class="col-md-3 col-md-offset-1"><a href="/home/work"><h3 class="nav-title">Work</h3></a></div>
+        <div class="col-md-3 col-md-offset-1"><a href="/home/work" onclick="javascript:window.location.reload(true)"><h3 class="nav-title">Work</h3></a></div>
         <div class="col-md-3 col-md-offset-1"><a href="https://github.com/djohnson0308"><h3 class="nav-title">Github</h3></a></div>
         <div class="col-md-3 col-md-offset-1"><a href="https://www.linkedin.com/in/devon-l-johnson-80a76884/"><h3 class="nav-title">LinkedIn</h3></a></div>
       </div>
