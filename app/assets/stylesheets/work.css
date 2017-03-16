@@ -1,13 +1,12 @@
-
+.navbar-header {
+}
 .navbar-header img {
-  height: 2.5em;
-  margin-top: .25em;
+  height: 4em;
 }
 .navbar-brand {
   float: left;
 }
 .volume {
-  /*float: right;*/
   margin-top: 17em;
   padding-left: 5em;
 }

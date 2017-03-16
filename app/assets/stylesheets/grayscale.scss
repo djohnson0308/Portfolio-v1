@@ -24,6 +24,7 @@
 }
 .navbar-custom a {
   color: white;
+  padding-top: 25px !important;
 }
 .navbar-custom .nav li a {
   -webkit-transition: background 0.3s ease-in-out;
@@ -68,11 +69,15 @@
     box-shadow: 0px 10px 10px 0px rgba(16,25,37,0.4);
   }
   .top-nav-collapse img {
-    height: 2em !important;
+    height: 3.75em !important;
   }
   .top-nav-collapse li a {
-    padding-top: 1em;
-    font-size: 16px !important;
+    padding-top: 25px;
+    font-size: 14px !important;
+  }
+  .top-nav-collapse li a:hover {
+    color: #fff !important;
+    border-bottom: 1px solid #b6fcd5;
   }
 }
 .intro {
