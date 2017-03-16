@@ -38,6 +38,9 @@
   color: #fff;
   font-size: 15px;
 }
+a:focus, a:hover {
+  text-decoration: none;
+}
 #about {
   background-color: #15212f;
   color: #fff;
