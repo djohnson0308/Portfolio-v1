@@ -30,13 +30,4 @@ tl.to(snow, 20, { bezier: {
           }, ease: Linear.easeNone});
 tl.to(snow, {autoAlpha:1, repeat:1, yoyo:true, ease: Linear.easeNone}, 0);
 
-
-var $img = $('.intro-body');
-// set initial CSS opacity to 0
-// GSAP handles the cross browser vendor prefixes
-TweenMax.set($img,{autoAlpha:0});
-// animate CSS opacity to 1
-TweenMax.to($img, 2.5, {autoAlpha:1});
-
-
 });
