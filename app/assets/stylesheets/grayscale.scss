@@ -30,11 +30,13 @@
   -webkit-transition: background 0.3s ease-in-out;
   -moz-transition: background 0.3s ease-in-out;
   transition: background 0.3s ease-in-out;
+  opacity: .55;
 }
 .navbar-custom .nav li a:hover {
   color: #fff;
   outline: none;
   background-color: transparent;
+  opacity: 1;
 }
 .navbar-custom .nav li a:focus,
 .navbar-custom .nav li a:active {
@@ -72,6 +74,7 @@
     height: 3.75em !important;
   }
   .top-nav-collapse li a {
+    opacity: 1 !important;
     padding-top: 25px;
     font-size: 14px !important;
   }

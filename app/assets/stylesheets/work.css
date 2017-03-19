@@ -1,5 +1,8 @@
 .navbar-header {
 }
+.brand-heading {
+  opacity: .35 !important;
+}
 .navbar-header img {
   height: 4em;
 }
