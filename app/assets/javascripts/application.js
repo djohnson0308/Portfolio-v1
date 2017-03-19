@@ -27,12 +27,4 @@ $(document).ready(function(){
     audio.play();
     // audio player volume
     document.getElementsByTagName('audio')[0].volume = 0.20;
-
-    // audio player mute button
-    document.getElementById("mute").addEventListener("click", function (e) {
-    var target = e.target;
-
-    target.classList.toggle("ion-ios-volume-high");
-    target.classList.toggle("ion-ios-volume-low");
-}, false);
 });
