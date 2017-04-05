@@ -23,7 +23,8 @@
   outline: none;
 }
 .navbar-custom a {
-  color: white;
+  color: rgba(255, 255, 255, 0.6);
+  font-family: 'myriad-set-pro_thin' !important;
   padding-top: 25px !important;
 }
 .navbar-custom .nav li a {
@@ -83,7 +84,7 @@
   }
   .top-nav-collapse li a:hover {
     color: #fff !important;
-    border-bottom: 1px solid #b6fcd5;
+    border-bottom: 2px solid #b6fcd5;
   }
 }
 .intro {
