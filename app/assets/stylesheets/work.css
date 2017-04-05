@@ -14,7 +14,8 @@
   padding-left: 5em;
 }
 .top-nav-collapse {
-  background-color: #101925;
+  /*background-color: #101925;*/
+  background-color: rgba(16, 25, 37, 0.98);
 }
 #navbar {
   width: 75%;
