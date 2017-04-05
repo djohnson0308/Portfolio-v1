@@ -11,18 +11,29 @@ section {
 }
 
 p {
-  font-size: 18px;
-  letter-spacing: 0em;
-  font-family: 'myriad-set-pro_thin';
-  font-weight: 400;
+  // font-size: 18px;
+  font-size: 1.35em;
+  letter-spacing: .5px;
+  // font-family: 'myriad-set-pro_thin';
+  // font-weight: 400;
+  font-family: '.tk-adobe-garamond-prodelete';
+  -webkit-font-smoothing: antialiased;
   line-height: 1.6;
   font-style: normal;
 }
+h1 {
+  font-weight: 700;
+}
 h2 {
   font-size: 40px;
+  font-weight: 900;
 }
-h3{
+h3 {
   font-size: 32px;
+  font-weight: 600;
+}
+h4 {
+  font-weight: 600;
 }
 h5 {
   font-size: 15px;
@@ -59,6 +70,7 @@ audio {
 }
 .hsContent h2 {
   font-size: 1.65em;
+  font-weight: 600;
 }
 .icon {
   font-size: 25px;
@@ -73,11 +85,11 @@ button {
 }
 .icon.ion-ios-volume-high {
   font-size: 45px;
-  color: rgba(255,255,255,.40);
+  color: rgba(255,255,255,.25);
 }
 .icon.ion-ios-volume-low {
   font-size: 45px;
-  color: rgba(255,255,255,.40);
+  color: rgba(255,255,255,.25);
   margin-right: .57em;
 }
 #slide-1 .hsContent {
@@ -109,7 +121,6 @@ button {
   color: #fff;
 }
 .responsive-design-icon {
-  padding-top: 1em;
   height: 14em;
 }
 .item.bottom-text {
