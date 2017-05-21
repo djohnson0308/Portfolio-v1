@@ -14,6 +14,10 @@
 //= require jquery_ujs
 //= require turbolinks
 
+$(window).load(function() {
+		// Animate loader off screen
+		$(".hsContent::before");
+	});
 
 $(document).ready(function(){
     $('.homeSlide').height($(window).height());

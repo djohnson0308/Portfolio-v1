@@ -1,6 +1,21 @@
 <header>
 <section id="slide-1" class="homeSlide">
   <div class="header">
+    <!-- fullscreen-nav-overlay -->
+    <input type="checkbox" id="op"></input>
+    <div id="overlay" class="overlay overlay-hugeinc">
+    			<label for="op" class="ion-ios-close-outline"></label>
+    			<nav>
+    				<ul class="text-left">
+    					<li class="sliding-u-l-r-1"><a href="#">Home</a></li>
+    					<li class="sliding-u-l-r-2"><a id="about-link" class="about-link" href="#slide-2">About</a></li>
+    					<li class="sliding-u-l-r-1"><a href="home/work" onclick="window.location.href = window.location.href='/home/work'">Work</a></li>
+              <li class="sliding-u-l-r-3"><a href="https://github.com/djohnson0308">Github</a></li>
+              <li class="sliding-u-l-r-4"><a href="https://www.linkedin.com/in/devon-l-johnson-80a76884/">LinkedIn</a></li>
+    					<li class="sliding-u-l-r-4"><a href="#slide-5">Contact</a></li>
+    				</ul>
+    			</nav>
+    </div>
     <div class="gradient">
       <div class="demo">
         <a href="javascript:window.location.reload(true)"><img class="logo" id="logo" src="<%= asset_path 'portfolio-logo3.png' %>"/></a>
@@ -9,17 +24,26 @@
           data-top="bottom: 400px; opacity: 0"
           data-center="left: 658px"
           data-anchor-target="#slide-1 h2">
+        <div class="menu">
+          <label for="op"><span class="ion-navicon"></span></label>
+        </div>
         <div class="greeting">
-      		<h2 class="line-1 anim-typewriter" id="">I'm Devon. A web developer</h2>
-          <h4 class="line-1 anim-typewriter2">in Miami, FL</h4>
-          <audio id="player" loop="true">
+      		<h4 class="line-1 anim-typewriter">I'm Devon. A web developer.</h4>
+          <audio id="player" loop="true" muted>
             <source preload="auto" src="<%= audio_path '03 I Remember (Instrumental).m4a'%>"></source>
             <source preload="auto" src="<%= asset_path '03 I Remember (Instrumental).mp3'%>"></source>
           </audio>
-          <div class="controls">
-          <i class="icon ion-ios-volume-high" id="mute" onclick="document.getElementById('player').muted=!document.getElementById('player').muted"></i>
-          <link href="//code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet">
+          <div class="controls row text-center">
+            <div class="col-md-12">
+              <div class="arrow col-md-1 col-md-offset-5">
+                <a href="#slide-2" class="ion-ios-arrow-down" style="color:#fff; font-size:30px;"></a>
+              </div>
+              <div class="volume1 col-md-1 col-md-offset-3">
+                <a class="icon ion-ios-volume-low" id="mute" onclick="document.getElementById('player').muted=!document.getElementById('player').muted"></a>
+              </div>
+            </div>
           </div>
+
         </div>
       </div>
   </div>
@@ -27,61 +51,109 @@
 </header>
 <section id="slide-2" class="about">
   <div class="container">
+    <div class="col-md-12 text-center">
+      <img class="pro-pic" src="<%= asset_path 'pro-pic-graphic.png' %>" alt="" data-aos=""/>
+    </div>
     <div class="col-md-4 col-md-offset-4 text-center">
-      <h2 data-aos="fade-down"
+      <!-- <h2 data-aos="fade-down"
      data-aos-easing="linear"
-     data-aos-duration="1000">Hi.</h2>
+     data-aos-duration="1000">Hi.</h2> -->
+     <h3>Hi.</h3>
     </div>
     <div class="col-md-4 col-md-offset-4 col-sm-6 col-sm-offset-3">
-      <p data-aos="fade-in">
-         I'm a web designer and developer based in Miami, FL. I have a passion for web design and development using the latest technologies.  When I design, I love working for clients who are incredibly ambitious, because it pushes me beyond my ordinary boundaries. </p>
+      <p class="text-1" data-aos="fade-up">I'm a web designer and developer based in Miami, FL. I have a passion for web design and development using the latest technologies.</p>
+      <p class=""data-aos="fade-up"> When I design, I enjoy working for clients who are incredibly ambitious, because it pushes me beyond my ordinary boundaries. </p>
     </div>
   </div>
-</section>
-<section id="slide-3" class="">
   <div class="container">
-    <div class="row">
-      <div class="col-md-4 col-md-offset-4 text-center">
-        <h2 data-aos="fade-down"
-     data-aos-easing="linear"
-     data-aos-duration="1500" data-aos-offset="200">What I can do.</h2>
-      </div>
+    <div class="nav-arrow col-md-12 text-center">
+      <a href="#slide-3" class="ion-ios-arrow-down blink_me" style="color:#fff; font-size:30px;"></a>
     </div>
-    <div class="row">
-      <div class="top-text col-md-4 col-md-offset-2 col-sm-5 col-sm-offset-1">
-  		    <h3 data-aos="fade-right">Develop what you need.</h3>
+  </div>
+</section>
+<section id="slide-3">
+  <div class="row">
+    <div class="col-md-12 col-xs-12">
+      <div class="text-left col-md-6 col-xs-6">
+        <div class="dev-text">
+          <h2>What I can do.</h2>
+          <h3 data-aos="fade-right">Develop what you need</h3>
           <p data-aos="fade-right"
-             data-aos-offset="200">
-            I'm a developer, so I know how to create your website to do what you want and run across all devices.</p>
+             data-aos-offset="150">I'm a developer, so I know how to create your website to do what you want and run across all devices.</p>
+        </div>
+        <div class="nav-arrow col-md-12">
+          <a href="#slide-4" class="ion-ios-arrow-right blink_me" style="color:#fff; font-size:30px;"></a>
+        </div>
       </div>
-      <div class="top-text col-md-3 col-md-offset-1 col-sm-5 col-sm-offset-1">
-        <img class="item responsive-design-icon" src="<%= asset_path 'responsive2.png' %>" alt="" data-aos=""/>
-      </div>
-    </div>
-    <div class="row">
-      <div class="item bottom-text col-md-3 col-md-offset-2 col-sm-4 col-sm-offset-1" data-aos="">
-        <img class="responsive-design-icon"src="<%= asset_path 'internet.png' %>" alt=""/>
-      </div>
-      <div class="bottom-text col-md-4 col-md-offset-1 col-sm-5 col-sm-offset-1">
-        <h3 data-aos="fade-left">Design what you want.</h3>
-        <p data-aos="fade-left"
-           data-aos-offset="200">
-           My style is simple and I believe less is more. I focus on optimizing the user experience with clean design and intuitive functionality.</p>
+      <div class="dev-img col-md-6 col-xs-6 text-center">
+        <img class="item responsive-design-icon" data-aos="fade-up" src="<%= asset_path 'responsive2.png' %>" alt="" data-aos=""/>
       </div>
     </div>
   </div>
 </section>
-<section id="slide-4" class="">
+<section id="slide-4">
+  <div class="row">
+    <div class="col-md-12 col-xs-12">
+      <div class="des-img col-md-6 col-xs-6 text-center">
+        <img class="responsive-design-icon" data-aos="fade-up" src="<%= asset_path 'monitor.png' %>" alt=""/>
+      </div>
+      <div class="text-left col-md-6 col-xs-6">
+        <div class="dev-text">
+          <h3 data-aos="fade-left">Design what you want</h3>
+          <p class="p" data-aos="fade-left"
+             data-aos-offset="150">My style is simple and I believe less is more.</p>
+          <p data-aos="fade-left"
+             data-aos-offset="150">I focus on optimizing the user experience with clean design and intuitive functionality.</p>
+        </div>
+        <div class="nav-arrow col-md-12">
+          <a href="#slide-5" class="ion-ios-arrow-down blink_me" style="color:#fff; font-size:30px;"></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="slide-5" class="">
   <div class="container">
     <div class="col-md-4 col-md-offset-4 text-center">
-      <h2 data-aos="fade-up">I can help.</h2>
+      <!-- <h2 data-aos="fade-up">I can help.</h2> -->
+      <h2>I can help.</h2>
     </div>
     <div class="contact col-md-6 col-md-offset-3 text-center">
-      <h3 data-aos="fade-up" data-aos-offset="200">I'm currently available for freelance work.</h3>
-      <p data-aos="fade-up" data-aos-offset="350">Have a project you want to get started or want my help with something? Get in touch.</p>
+      <h3 data-aos="fade-up" data-aos-offset="50">I'm currently available for freelance work.</h3>
+      <p data-aos="fade-up" data-aos-offset="50">Have a project you want to get started or want my help with something? Get in touch.</p>
     </div>
     <div class="email col-md-4 col-md-offset-4 text-center">
-      <a href="mailto:dljohnson@rollins.edu" class="btn btn-lg btn-dark item" data-aos="zoom-out" data-aos-offset="300"><i class="fa fa-envelope-o" aria-hidden="true"></i> MESSAGE ME</a>
+      <a href="mailto:dljohnson@rollins.edu" class="btn btn-lg btn-dark item" data-aos="zoom-out" data-aos-offset="50"><i class="fa fa-envelope-o" aria-hidden="true"></i> MESSAGE ME</a>
+    </div>
+  </div>
+  <div class="brands container">
+    <div class="row">
+      <div class="col-md-6 col-xs-6 text-right">
+        <img class="pro-pic" src="<%= asset_path 'Rollins-logo.png' %>" alt="" data-aos=""/>
+      </div>
+      <div class="wyncode col-md-6 col-xs-6 text-left">
+        <img data-toggle="modal" data-target=".wyncode-modal" class="pro-pic" src="<%= asset_path 'wyncode-logo.png' %>" alt="" data-aos=""/>
+      </div>
+    </div>
+  </div>
+  <div class="container text-center">
+    <div class="modal fade wyncode-modal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+              <div class="item active">
+               <img class="img-responsive" src="/assets/wyncode_certificate.png" alt="...">
+                <div class="carousel-caption">
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </section>
@@ -92,7 +164,7 @@
     </div>
     <div class="row">
       <div class="col-md-6 col-md-offset-3">
-        <div class="col-md-3 col-md-offset-1"><a href="/home/work"><h3 class="nav-title">Work</h3></a></div>
+        <div class="col-md-3 col-md-offset-1"><a href="/home/work" onclick="window.location.href = window.location.href='/home/work'"><h3 class="nav-title">Work</h3></a></div>
         <div class="col-md-3 col-md-offset-1"><a href="https://github.com/djohnson0308"><h3 class="nav-title">Github</h3></a></div>
         <div class="col-md-3 col-md-offset-1"><a href="https://www.linkedin.com/in/devon-l-johnson-80a76884/"><h3 class="nav-title">LinkedIn</h3></a></div>
       </div>
@@ -106,55 +178,86 @@
 </footer>
 
 <script type="text/javascript">
+  $(document).ready(function(){
+
+    var $img = $('.header');
+    // set initial CSS opacity to 0
+    // GSAP handles the cross browser vendor prefixes
+    TweenMax.set($img,{autoAlpha:0});
+    // animate CSS opacity to 1
+    TweenMax.to($img, 2.5, {autoAlpha:1});
+
+    TweenMax.to(".logo", 2.5, {left:50, top: 30});
+
+    TweenMax.to (".hsContent", 2.5, {});
+    // left: 700px;
+    // bottom: 50, left: 520
+
+    TweenMax.set(".footer-logo", {opacity:0});
+    TweenMax.to(".footer-logo", 2, { y:-160 , opacity:1 , ease:Power1.easeInOut});
+
+    var snow = $(".hsContent");
+    var tl = new TimelineMax({repeat:-1});
+    var bezierPath = [{ x: 3, y: 7 }, { x: -5, y: 8 }, { x: 5, y: 12 },{ x: -5, y: 16 }, {x: 0, y: 0}];
+
+    // tl.set(snow, {autoAlpha:0});
+    tl.to(snow, 20, { bezier: {
+                type: 'soft',
+                values: bezierPath,
+                smoothOrigin: true,
+                timeResolution: 50
+              }, ease: Linear.easeNone});
+    tl.to(snow, {autoAlpha:1, repeat:1, yoyo:true, ease: Linear.easeNone}, 0);
+
+    $('.homeSlide').height($(window).height());
+
+    AOS.init({
+      duration: 1200,
+       disable: 'mobile'
+    });
+    // audio player
+    var audio = document.getElementsByTagName("audio")[0];
+    audio.play();
+    // audio player volume
+    document.getElementsByTagName('audio')[0].volume = 0.03;
+    // audio player mute button
+    document.getElementById("mute").addEventListener("click", function (e) {
+    var target = e.target;
+
+    target.classList.toggle("ion-ios-volume-high")
+    target.classList.toggle("ion-ios-volume-low")
+  }, false);
+
+  });
+</script>
+<script>
+// smooth scrolling to section function
 $(document).ready(function(){
-  $('.homeSlide').height($(window).height());
+  // Add smooth scrolling to all links
+  $("a").on('click', function(event) {
 
-  AOS.init({
-    duration: 1200,
-     disable: 'mobile'
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
   });
-  // audio player
-  var audio = document.getElementsByTagName("audio")[0];
-  audio.play();
-  // audio player volume
-  document.getElementsByTagName('audio')[0].volume = 0.20;
-  // audio player mute button
-  document.getElementById("mute").addEventListener("click", function (e) {
-  var target = e.target;
+});
+</script>
 
-  target.classList.toggle("ion-ios-volume-high");
-  target.classList.toggle("ion-ios-volume-low");
-}, false);
-
-  var $img = $('.header');
-  // set initial CSS opacity to 0
-  // GSAP handles the cross browser vendor prefixes
-  TweenMax.set($img,{autoAlpha:0});
-  // animate CSS opacity to 1
-  TweenMax.to($img, 2.5, {autoAlpha:1});
-
-  TweenMax.to(".logo", 2.5, {left:50, top: 30});
-
-  TweenMax.to (".hsContent", 2.5, {});
-  // left: 700px;
-  // bottom: 50, left: 520
-
-  TweenMax.set(".footer-logo", {opacity:0});
-  TweenMax.to(".footer-logo", 2, { y:-160 , opacity:1 , ease:Power1.easeInOut});
-
-  var snow = $(".hsContent");
-  var tl = new TimelineMax({repeat:-1});
-  var bezierPath = [{ x: 3, y: 7 }, { x: -5, y: 8 }, { x: 5, y: 12 },{ x: -5, y: 16 }, {x: 0, y: 0}];
-
-  // tl.set(snow, {autoAlpha:0});
-  tl.to(snow, 20, { bezier: {
-              type: 'soft',
-              values: bezierPath,
-              smoothOrigin: true,
-              timeResolution: 50
-            }, ease: Linear.easeNone});
-  tl.to(snow, {autoAlpha:1, repeat:1, yoyo:true, ease: Linear.easeNone}, 0);
-
-  });
-
+<!-- hide nav overlay and scroll to section -->
+<script type="text/javascript">
 </script>

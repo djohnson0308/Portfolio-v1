@@ -23,7 +23,7 @@
   outline: none;
 }
 .navbar-custom a {
-  color: #cccccc;
+  color: #fff;
   font-family: 'myriad-set-pro_thin' !important;
   padding-top: 25px !important;
 }
@@ -84,7 +84,6 @@
   }
   .top-nav-collapse li a:hover {
     color: #fff !important;
-    border-bottom: 2px solid #b6fcd5;
   }
 }
 .intro {
@@ -94,19 +93,17 @@
   padding: 100px 0;
   text-align: center;
   color: white;
-  background: image-url('underwater.jpeg') no-repeat bottom center scroll;
+  background: image-url('cloud-mountains.jpeg') no-repeat bottom center scroll;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
-  // -o-background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-size: cover;
 }
 .intro .intro-body {
   display: table-cell;
   vertical-align: middle;
-  height: 50em;
+  height: 5em;
   padding-top: 18em;
 }
 .intro .intro-body .brand-heading {
