@@ -33,6 +33,7 @@ h3 {
 }
 h4 {
   font-weight: 600;
+  letter-spacing: 0px;
 }
 h5 {
   font-size: 15px;
@@ -140,6 +141,21 @@ button {
 }
 #slide-1 h4 {
   color: rgba(255,255,255,.95) !important;
+  letter-spacing: -1px !important;
+}
+/* Chrome only: */
+@media all and (-webkit-min-device-pixel-ratio:0) and (min-resolution: .001dpcm) {
+  #slide-1 h4 {
+    color: rgba(255,255,255,.95) !important;
+    letter-spacing: 0px !important;
+  }
+}
+// Firefox only
+@-moz-document url-prefix() {
+  #slide-1 h4 {
+    color: rgba(255,255,255,.95) !important;
+    letter-spacing: -.5px !important;
+  }
 }
 .menu span {
   color: #fff;
