@@ -26,7 +26,11 @@ $(document).ready(function(){
       duration: 1200,
        disable: 'mobile'
     });
-    // audio player
+
+		TweenMax.set(".footer-logo", {opacity:0});
+		TweenMax.to(".footer-logo", 2, { y:-160 , opacity:1 , ease:Power1.easeInOut});
+
+		// audio player
     var audio = document.getElementsByTagName("audio")[0];
     audio.play();
     // audio player volume
