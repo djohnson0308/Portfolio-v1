@@ -11,27 +11,21 @@
   filter: blur(10px);
   z-index: -1;
 }
-
 .hsContent {
   margin: 100px auto;
-  // position: relative;
-  // background: hsla(0,0%,100%,.3);
   line-height: 1.5;
-  // width: 60%;
-  // box-shadow: 0px 0px .5px black;
   overflow: hidden;
 }
-
-.greeting::before {
-  background: image-url('el-capitan-2.jpg') 0 / cover fixed;
-  content: '';
-  margin: -100px;
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  -webkit-filter: blur(10px);
-  filter: blur(10px);
-  z-index: -1;
-}
+// .greeting::before {
+//   background: image-url('el-capitan-2.jpg') 0 / cover fixed;
+//   content: '';
+//   margin: -100px;
+//   position: absolute;
+//   top: 0;
+//   right: 0;
+//   bottom: 0;
+//   left: 0;
+//   -webkit-filter: blur(10px);
+//   filter: blur(10px);
+//   z-index: -1;
+// }

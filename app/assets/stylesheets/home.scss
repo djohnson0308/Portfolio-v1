@@ -53,25 +53,42 @@ h5 {
     position: absolute;
 }
 @media screen and (max-device-width: 1024px) {
-    .header {
-      background: image-url('el-capitan-2.jpg');
-      background-size: cover;
-    }
-}
-@media only screen and (min-device-width: 768px) {
-  // For tablets
   .header {
     background: image-url('el-capitan-2.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     background-size: cover;
-  }
+    height: 100%;
+    width: 100%;
+    position: absolute;  }
 }
-@media only screen and (min-device-width: 480px){
-  // For phones
-  .header {
-    background: image-url('el-capitan-2.jpg');
-    background-size: cover;
-  }
-}
+// @media only screen and (min-device-width: 768px) {
+//   // For tablets
+//   .header {
+//     background: image-url('el-capitan-2.jpg');
+//     background-position: center center;
+//     background-repeat: no-repeat;
+//     background-attachment: fixed;
+//     background-size: cover;
+//     height: 100%;
+//     width: 100%;
+//     position: absolute;
+//   }
+// }
+// @media only screen and (min-device-width: 480px){
+//   // For phones
+//   .header {
+//     background: image-url('el-capitan-2.jpg');
+//     background-position: center center;
+//     background-repeat: no-repeat;
+//     background-attachment: fixed;
+//     background-size: cover;
+//     height: 100%;
+//     width: 100%;
+//     position: absolute;
+//   }
+// }
 
 
 .logo {
