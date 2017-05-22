@@ -76,6 +76,33 @@ h5 {
       position: absolute;
     }
 }
+/* ipad Mini Portrait */
+@media only screen and (width:768px) and (resolution: 163dpi) {
+  .header {
+    background: image-url('el-capitan-2.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+  }
+}
+
+/* ipad Mini Landscape */
+@media only screen and (width:1024px) and (resolution: 163dpi) {
+  .header {
+    background: image-url('el-capitan-2.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+  }
+}
 /* ----------- iphone ----------- */
 
 @media only screen and (min-device-width: 480px){
