@@ -58,8 +58,8 @@ h5 {
     background-size: cover;
   }
 }
-@media only screen and (min-device-width: 768px) {
-  // For tablets
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
   .header {
     background: image-url('el-capitan-2.jpg');
     background-position: center center;
