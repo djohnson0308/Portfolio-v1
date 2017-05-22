@@ -19,7 +19,6 @@
 	border: none;
 	background: url(../img/cross.png) no-repeat center center;
 	text-indent: 200%;
-	: transparent;
 	outline: none;
 	z-index: 100;
 }
