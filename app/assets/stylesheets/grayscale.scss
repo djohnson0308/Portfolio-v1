@@ -31,7 +31,7 @@
   -webkit-transition: background 0.3s ease-in-out;
   -moz-transition: background 0.3s ease-in-out;
   transition: background 0.3s ease-in-out;
-  opacity: .35;
+  opacity: 0;
   letter-spacing: 1.5px;
 }
 .navbar-custom .nav li a:hover {
@@ -93,18 +93,18 @@
   padding: 100px 0;
   text-align: center;
   color: white;
-  background: image-url('cloud-mountains.jpeg') no-repeat bottom center scroll;
+  background: image-url('board-room.jpeg') no-repeat bottom center scroll;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
   background-repeat: no-repeat;
-  background-attachment: fixed;
+  background-attachment: absolute;
 }
 .intro .intro-body {
   display: table-cell;
   vertical-align: middle;
-  height: 5em;
-  padding-top: 18em;
+  height: 45em;
+  // padding-top: 25em;
 }
 .intro .intro-body .brand-heading {
   font-size: 20px;

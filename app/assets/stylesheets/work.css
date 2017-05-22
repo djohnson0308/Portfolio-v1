@@ -42,9 +42,13 @@
 a:focus, a:hover {
   text-decoration: none;
 }
+.work-body {
+  background-color: #e5e5e5;
+}
 #about {
   background-color: #090e14;
-  padding-bottom: 4em;
+  padding-bottom: 0em;
+  padding-top: 0em;
 }
 .list-horizontal {
   margin-right: 35px;
@@ -79,9 +83,24 @@ a:focus, a:hover {
   -webkit-font-smoothing: antialiased;
   font-weight: normal;*/
 }
+#work-text {
+  height: 20em;
+  background-color: #e5e5e5;
+  color: black !important;
+  padding-top: 10em;
+  padding-bottom: 10em;
+}
+#work-text h2 {
+  font-size: 32px;
+  color: #636363;
+}
+#work-text h3{
+  font-size: 20px;
+  color: #636363;
+}
 #portfolio {
-  color: #fff;
-  height: 73em;
+  color: #636363;
+  height: 65em;
 }
 #portfolio h1 {
   font-family: 'myriad-set-pro_text';
@@ -123,11 +142,17 @@ padding-top: 10em;
   font-size: 1.35em;
 }
 .portfolio-1 {
-  /*background-color: #4f6a7e;*/
-  background-color: #21364b;
+  /*background-color: #21364b;*/
+  background-color: #e5e5e5;
+}
+.portfolio-1 h1 {
+  color: #636363;
 }
 .portfolio-1 h2 {
-  color: #a7e0f3;
+  color: #85b3c2;
+}
+.portfolio-1 p {
+  color: #636363;
 }
 .portfolio-1 .col-lg-12 {
   color: #fff;
@@ -143,17 +168,18 @@ padding-top: 10em;
   margin-top: 100px;
 }
 .portfolio-2 {
-  background-color: #171717;
+  /*background-color: #171717;*/
+  background-color: #e5e5e5;
 }
 .portfolio-2 h1 {
   font-weight: 900 !important;
-  color: #9f9f9f;
+  color: #6f6f6f;
 }
 .portfolio-2 h2 {
-  color: #7f97a2;
+  color: #728791;
 }
 .portfolio-2 p {
-  color: #9f9f9f;
+  color: #6f6f6f;
 }
 .portfolio-2 .col-lg-12 {
   padding-top: 5em;
@@ -164,16 +190,16 @@ padding-top: 10em;
   margin-top: 1em;
 }
 .portfolio-3 {
-  background-color: #fff;
+  background-color: #e5e5e5;
 }
 .portfolio-3 h1 {
-  color: #4c4c4c;
+  color: #636363;
 }
 .portfolio-3 h2 {
-  color: #92aac7;
+  color: #8399b3;
 }
 .portfolio-3 p {
-  color: #4c4c4c;
+  color: #636363;
 }
 .portfolio-3 .col-lg-12 {
   padding-top: 5em;
@@ -184,10 +210,17 @@ padding-top: 10em;
   margin-top: 1em;
 }
 .portfolio-4 {
-  background-color: #5c8886;
+  background-color: #e5e5e5;
+  padding-bottom: 75em;
+}
+.portfolio-4 h1 {
+  color: #636363;
 }
 .portfolio-4 h2 {
-  color: #D4FAF6;
+  color: #587272;
+}
+.portfolio-4 p {
+  color: #636363;
 }
 .portfolio-4 .col-lg-12 {
   padding-top: 5em;
