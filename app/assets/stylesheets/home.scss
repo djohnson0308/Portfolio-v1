@@ -61,7 +61,7 @@ h5 {
 /* ----------- iPad mini ----------- */
 
 /* Portrait and Landscape */
-@media only screen
+@media screen
   and (min-device-width: 768px)
   and (max-device-width: 1024px)
   and (-webkit-min-device-pixel-ratio: 1) {
@@ -72,7 +72,7 @@ h5 {
 }
 /* ----------- iphone ----------- */
 
-@media only screen and (min-device-width: 480px){
+@media screen and (min-device-width: 480px){
   // For phones
   .header {
     background: image-url('el-capitan-2.jpg');
