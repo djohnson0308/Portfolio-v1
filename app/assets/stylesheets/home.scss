@@ -58,19 +58,26 @@ h5 {
     background-size: cover;
   }
 }
-/* iPads (portrait and landscape) ----------- */
-@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
-  .header {
-    background: image-url('el-capitan-2.jpg');
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    height: 100%;
-    width: 100%;
-    position: absolute;
-  }
+/* ----------- iPad mini ----------- */
+
+/* Portrait and Landscape */
+@media only screen
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (-webkit-min-device-pixel-ratio: 1) {
+    .header {
+      background: image-url('el-capitan-2.jpg');
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+      height: 100%;
+      width: 100%;
+      position: absolute;
+    }
 }
+/* ----------- iphone ----------- */
+
 @media only screen and (min-device-width: 480px){
   // For phones
   .header {
