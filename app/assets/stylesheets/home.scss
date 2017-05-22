@@ -1,7 +1,6 @@
 // Place all the styles related to the home controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
-
 body {
   font-family: "myriad-set-pro_ultralight";
   // background-color: #090e14;
@@ -9,6 +8,7 @@ body {
 }
 section {
   border: none !important;
+  overflow-y: hidden;
 }
 
 p {
@@ -53,6 +53,13 @@ h5 {
     height: 100%;
     width: 100%;
     position: absolute;
+}
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .header {
+      background: image-url('el-capitan-2.jpg');
+      background-size: cover;
+    }
 }
 .logo {
   height: 5em;
