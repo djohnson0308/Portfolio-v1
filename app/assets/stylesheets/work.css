@@ -62,8 +62,8 @@ a:focus, a:hover {
 	color: #fff;
 	font-size: 20px;
 }
-#about .heading {
-  margin-top: 2em;
+#about .container {
+  padding-bottom: 3em !important;
 }
 #about .container {
   padding-top: 4em;
@@ -78,17 +78,12 @@ a:focus, a:hover {
   font-size: 20px;
   margin-top: 0px;
 }
-#about h4 {
-  /*font-family: '.tk-adobe-garamond-prodelete';
-  -webkit-font-smoothing: antialiased;
-  font-weight: normal;*/
-}
 #work-text {
   height: 20em;
   background-color: #e5e5e5;
   color: black !important;
-  padding-top: 10em;
-  padding-bottom: 10em;
+  padding-top: 5em;
+  padding-bottom: 5em;
 }
 #work-text h2 {
   font-size: 32px;
@@ -128,7 +123,7 @@ a:focus, a:hover {
   margin-top: 15px;
 }
 #portfolio .display {
-padding-top: 5em !important;
+padding-top: 0em !important;
 }
 #portfolio p {
   font-family: 'myriad-set-pro_thin';
