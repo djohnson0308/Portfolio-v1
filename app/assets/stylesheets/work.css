@@ -122,27 +122,19 @@ a:focus, a:hover {
   line-height: 40px;
 }
 #portfolio h2 {
-  /*font-family: '.tk-adobe-garamond-prodelete';
-  -webkit-font-smoothing: antialiased;
-  font-size: 1.35em;
-  font-weight: normal;*/
   font-family: 'myriad-set-pro_ultralight';
   font-size: 1.35em;
   margin-bottom: 20px;
   margin-top: 15px;
 }
 #portfolio .display {
-padding-top: 10em;
+padding-top: 5em !important;
 }
 #portfolio p {
-  /*font-family: '.tk-adobe-garamond-prodelete';
-  -webkit-font-smoothing: antialiased;
-  font-size: 1.35em;*/
   font-family: 'myriad-set-pro_thin';
   font-size: 1.35em;
 }
 .portfolio-1 {
-  /*background-color: #21364b;*/
   background-color: #e5e5e5;
 }
 .portfolio-1 h1 {
