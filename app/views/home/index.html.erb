@@ -184,6 +184,14 @@
     </div>
   </div>
 </footer>
+<!-- Reloads Javascript when back / forward click in broswer -->
+<script type="text/javascript">
+$(document).ready(function(e) {
+  var $input = $('#refresh');
+
+  $input.val() == 'yes' ? location.reload(true) : $input.val('yes');
+});
+</script>
 <script language="javascript" type="text/javascript">
 $(window).load(function() {
    $('#loading').hide();
