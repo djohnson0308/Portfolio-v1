@@ -80,7 +80,7 @@ a:focus, a:hover {
 }
 #work-text {
   height: 20em;
-  background-color: #e5e5e5;
+  background-color: #fff;
   color: black !important;
   padding-top: 5em;
   padding-bottom: 5em;
@@ -130,7 +130,7 @@ padding-top: 0em !important;
   font-size: 1.35em;
 }
 .portfolio-1 {
-  background-color: #e5e5e5;
+  background-color: #fff;
 }
 .portfolio-1 h1 {
   color: #636363;
@@ -156,7 +156,7 @@ padding-top: 0em !important;
 }
 .portfolio-2 {
   /*background-color: #171717;*/
-  background-color: #e5e5e5;
+  background-color: #fff;
 }
 .portfolio-2 h1 {
   font-weight: 900 !important;
@@ -177,7 +177,7 @@ padding-top: 0em !important;
   margin-top: 1em;
 }
 .portfolio-3 {
-  background-color: #e5e5e5;
+  background-color: #fff;
 }
 .portfolio-3 h1 {
   color: #636363;
@@ -197,7 +197,7 @@ padding-top: 0em !important;
   margin-top: 1em;
 }
 .portfolio-4 {
-  background-color: #e5e5e5;
+  background-color: #fff;
   padding-bottom: 75em;
 }
 .portfolio-4 h1 {
